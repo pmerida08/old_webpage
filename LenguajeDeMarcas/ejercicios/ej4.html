@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lenguaje de Marcas</title>
+</head>
+<body>
+    <h1>Ejercicio 4</h1>
+
+    <li><a href="../ejercicios/ej1/ej1.html">Ejercicio 1</a></li>
+    <li><a href="ej2.html">Ejercicio 2</a></li>
+    <li><a href="ej3.html">Ejercicio 3</a></li>
+    <li><a href="ej4.html">Ejercicio 4</a></li>
+    
+    <form action="gestianar.php" method="get" name="formulario1">
+        <p>
+            <label>Nombre: 
+                <input type="text" name="nombre" placeholder="Nombre" maxlength="10"/>
+            </label>
+        </p>
+        <p>
+            <label>Teléfono: 
+                <input type="text" name="nombre" placeholder="Nombre" maxlength="10"/>
+            </label>
+        </p>
+        <p>
+            <label>Email: 
+                <input type="email" name="email" placeholder="Email"/>
+            </label>
+        </p>
+        <p>
+            <label>Tipo de vehículo:
+                <p>
+                    <input type="radio" name="vehículo" value="Mini"/>Mini
+                    <input type="radio" name="vehículo" value="Compacto"/>Compacto
+                    <input type="radio" name="vehículo" value="Berlina"/>Berlina
+                </p>
+            </label>
+        </p>
+
+        <p>
+            <label>Extras:
+                <p>
+                    <input type="checkbox" name="extras1" value="PS"/>Asiento infantil
+                    <input type="checkbox" name="extras2" value="Xbox"/>Wifi
+                    <input type="checkbox" name="extras3" value="Nintendo"/>GPS
+                </p>
+            </label>
+        </p>
+        <p>
+            <label>Fecha de recogida: 
+                <input type="date" name="nacimiento" placeholder="Fecha de nacimento"/>
+            </label>
+        </p>
+        <p>
+            Lugar de recogida:
+            <select name="grupos">
+                
+                <option value="1">Emilio Canalejo</option>
+                <option value="2">IES Gran Capitan</option>
+            </select>
+        </p>
+        <p>
+            <label>Lugar de devolución: 
+                <input type="text" name="nombre" placeholder="Nombre" maxlength="10"/>
+            </label>
+        </p>
+        Special Instructions
+        <textarea name="Descripción" cols="20" rows="1"></textarea>
+
+        <p> 
+            <input type="submit" name="submit" value="Reservar"/>
+        </p>
+        
+    </form>
+    
+
+</body>
+</html>
