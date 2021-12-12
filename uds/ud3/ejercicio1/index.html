@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Ejemplos formularios</h1>
+    <h2>Ejemplo 1</h2>
+    <form action="gestianar.php" method="get" name="formulario1">
+        <p>
+            <label>Nombre: 
+                <input type="text" name="nombre" placeholder="Nombre" maxlength="10"/>
+            </label>
+        </p>
+        <p>
+            <label>Año de nacimiento: 
+                <input type="date" name="nacimiento" placeholder="Fecha de nacimento"/>
+            </label>
+        </p>
+        <p>
+            <label>Número de horas: 
+                <input type="number" name="nhoras" placeholder="Horas" title="Horas dedicadas a los videojuegos"/>
+            </label>
+        </p>
+        <p>
+            <label>Email: 
+                <input type="email" name="email" placeholder="Email"/>
+            </label>
+        </p>
+        <p> 
+            <input type="submit" name="submit" value="Enviar"/>
+        </p>
+        <p>
+            <label>Videoconsolas:
+                <p>
+                    <input type="checkbox" name="vconsolas1" value="PS"/>PlayStation
+                    <input type="checkbox" name="vconsolas2" value="Xbox"/>Xbox
+                    <input type="checkbox" name="vconsolas3" value="Nintendo"/>Nintendo
+                    <input type="checkbox" name="vconsolas4" value="PC"/>PC
+                </p>
+            </label>
+        </p>
+        <p>
+            <label>Elige juego preferido:
+                <p>
+                    <input type="radio" name="videojuegop" value="LoL"/>LoL
+                    <input type="radio" name="videojuegop" value="Fornite"/>Fornite
+                    <input type="radio" name="videojuegop" value="Diablo"/>Diablo
+                    <input type="radio" name="videojuegop" value="God Of War"/>God Of War
+                </p>
+            </label>
+        </p>
+
+        <textarea name="Descripción" cols="30" rows="10">Descripción</textarea>
+
+        <p>
+            <select name="grupos">
+                <option value="1">1DAW</option>
+                <option value="2">2DAW</option>
+                <option value="3">1ASIR</option>
+                <option value="4">2ASIR</option>
+            </select>
+        </p>
+    </form>
+    <a href="../../../index.html">Ir a inicio</a>
+</body>
+</html>

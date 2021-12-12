@@ -1,0 +1,10 @@
+div.main{
+    position: absolute;
+    top: 0;
+}
+
+img.img1{
+    position: relative;
+    left: 80%;
+    display: inline-block;
+}
