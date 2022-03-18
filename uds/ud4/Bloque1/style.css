@@ -1,0 +1,15 @@
+p.p1{
+    background-color: grey;
+}
+
+p.p2{
+    padding: 5%;
+    border: 2px black solid;
+    margin-right: 75%;
+}
+
+p.p3{
+    padding: 5%;
+    border: 30px grey solid;
+    margin-right: 75%;
+}
