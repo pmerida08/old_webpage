@@ -143,6 +143,16 @@ a:visited,
     display: static;
 }
 
+.img2 {
+    border: 0.5em #265301 solid;
+    border-radius: 5%;
+    margin-left: 5%;
+    width: 10%;
+    height: 5%;
+    margin-top: 0;
+    display: static;
+}
+
 p {
     padding: 10px;
 }
