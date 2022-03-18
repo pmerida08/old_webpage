@@ -1,0 +1,23 @@
+body{
+    width: 500px;
+    margin: 0;
+}
+
+p{
+    background: aqua;
+    border: 3px blue solid;
+    margin: 10px;
+    font: 10px blue solid;
+}
+
+span{
+    background: red;
+    border: 1px black solid;
+}
+
+.positioned{
+    position: relative;
+    margin-top: 30px;
+    margin-left: 30px;
+    background: yellow;
+}
