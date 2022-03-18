@@ -1,0 +1,142 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: grey;
+    color:aliceblue;
+}
+
+@media (max-width: 812px){
+    body{
+        margin: 0px;
+        padding: 0px;
+        background-color: grey;
+        color:aliceblue;
+    }
+
+    header{
+        margin: 5px;
+        padding: 5px;
+        background-color: darkblue;
+        color:aliceblue;
+    }
+
+    .flex-container{
+        display: flex;
+    }
+
+    .main{
+        margin: 5px;
+        padding: 5px;
+        background-color: rgb(96, 5, 199);
+        color:aliceblue;
+    }
+
+    .content{
+        margin: 5px;
+        padding: 5px;
+        background-color: rgb(144, 183, 206);
+        color:black;
+    }
+
+    .sidebar{
+        margin: 5px;
+        padding: 5px;
+        background-color: rgb(85, 221, 192);
+        color:black;
+    }
+
+    footer{
+        margin: 5px;
+        padding: 5px;
+        background-color: darkblue;
+        color:aliceblue;
+    }
+}
+
+@media (min-width: 812px){
+    body{
+        margin: 0px;
+        padding: 0px;
+        background-color: grey;
+        color:aliceblue;
+    }
+
+    header{
+        margin: 5px;
+        padding: 5px;
+        background-color: rgb(53, 133, 64);
+        color:aliceblue;
+    }
+
+    .main{
+        margin: 5px;
+        padding: 5px;
+        background-color: rgb(81, 109, 97);
+        color:aliceblue;
+    }
+
+    .content{
+        margin: 5px;
+        padding: 5px;
+        background-color: rgb(4, 223, 102);
+        color:black;
+    }
+
+    .sidebar{
+        margin: 5px;
+        padding: 5px;
+        background-color: rgb(56, 247, 205);
+        color:black;
+    }
+
+    footer{
+        margin: 5px;
+        padding: 5px;
+        background-color: rgb(83, 114, 77);
+        color:aliceblue;
+    }
+}
+
+@media (min-width: 1024px){
+    body{
+        margin: 0px;
+        padding: 0px;
+        background-color: grey;
+        color:aliceblue;
+    }
+
+    header{
+        margin: 5px;
+        padding: 5px;
+        background-color: rgb(192, 81, 17);
+        color:aliceblue;
+    }
+
+    .main{
+        margin: 5px;
+        padding: 5px;
+        background-color: rgb(126, 41, 26);
+        color:aliceblue;
+    }
+
+    .content{
+        margin: 5px;
+        padding: 5px;
+        background-color: rgb(231, 228, 60);
+        color:black;
+    }
+
+    .sidebar{
+        margin: 5px;
+        padding: 5px;
+        background-color: rgb(245, 243, 117);
+        color:black;
+    }
+
+    footer{
+        margin: 5px;
+        padding: 5px;
+        background-color: rgb(114, 99, 13);
+        color:aliceblue;
+    }
+}

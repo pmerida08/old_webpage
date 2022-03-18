@@ -1,0 +1,40 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    color:aliceblue;
+}
+
+button{
+    border-width: 50px;
+    border-radius: 5px;
+    border-color: aliceblue;
+}
+
+@media (max-width: 1024px){
+    body{
+        background-color: gold;
+        color: black;
+    }
+    button{
+        border-color: black;
+    }
+}
+@media (max-width: 480px){
+    body{
+        background-color: rgb(187, 245, 94);
+        color: black;
+    }
+    button{
+        border-color: black;
+    }
+}
+@media (max-width: 320px){
+    body{
+        background-color: rgb(240, 69, 69);
+        color: black;
+    }
+    button{
+        border-color: black;
+    }
+}
