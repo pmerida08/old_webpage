@@ -1,13 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version ="2.0">
-    <channel>
-        <title>RSS Pablo Mérida</title>
-        <link>https://pmerida08.github.io/.github.io/</link>
-        <description>Pagina web Pablo Mérida</description>
-        <item>
-            <title>Cordoba Patrimonio</title>
-            <link>https://github.com/pmerida08/pmerida08.github.io/blob/main/cp/index.html</link>
-            <description>Ejercicio de Cordoba Patrimonio</description>
-        </item>
-    </channel>
-</rss>
+<informe_poblacion fecha = "2022">
+    <solicitado>
+        ONG Manos Unidas.
+    </solicitado>
+    <descripcion>
+        Informe de ....
+    </descripcion>
+    
+    <paises>
+        <nombre>Francia</nombre>
+        <habitantes>60</habitantes>
+    </paises>
+
+    <paises>
+        <nombre>Irlanda</nombre>
+        <habitantes>4</habitantes>
+    </paises>
+
+    <paises>
+        <nombre>Brasil</nombre>
+        <habitantes>180</habitantes>
+    </paises>
+
+</informe_poblacion>
