@@ -4,6 +4,16 @@
     <link href="https://pmerida08.github.io/" />
   <title>Unidades</title>
   <entry>
+    <title>Córdoba Patrimonio</title>
+    <id>https://pmerida08.github.io/cp/index.html</id>
+    <updated>2003-04-01T12:26:02Z</updated>
+    <author>
+        <name>Pablo Mérida Velasco</name>
+    </author>
+    <link rel="self" href="https://pmerida08.github.io/cp/index.html"/>
+    <summary>Página de Córdoba Patrimonio</summary>
+  </entry>
+  <entry>
     <title>Unidad 1</title>
     <id>https://pmerida08.github.io/uds/ud1/index.html</id>
     <updated>2003-04-01T12:26:02Z</updated>
