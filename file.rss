@@ -5,13 +5,8 @@
         <link>https://pmerida08.github.io/.github.io/</link>
         <description>Pagina web Pablo Mérida</description>
         <item>
-            <title>Cordoba Patrimonio</title>
-            <link>https://pmerida08.github.io/cp/index.html</link>
-            <description>Ejercicio de Cordoba Patrimonio</description>
-        </item>
-        <item>
-            <title>Ejercicios ejemplo XML</title>
-            <link>https://pmerida08.github.io/uds/ud6/index.html</link>
+            <title>Ejercicio 1 ejemplo XML</title>
+            <link>https://pmerida08.github.io/uds/ud6/XML%20y%20DTD/actPropuestas/ejercicio1.xml</link>
             <description>Ejercicios XML</description>
         </item>
     </channel>
