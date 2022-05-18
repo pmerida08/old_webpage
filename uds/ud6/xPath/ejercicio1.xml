@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+
+  <employees>
+    <employee id="1">Johnny Dapp</employee>
+    <employee id="2">Al Pacino</employee>
+    <employee id="3">Robert De Niro</employee>
+    <company id="6">Tata Consultancy </company>
+    <employee id="4">Kevin Spacey</employee>
+    <employee id="5">Denzel Washington</employee>
+  </employees>
+
+  <companies>
+    <company id="6">Tata Consultancy Services</company>
+    <company id="7">Wipro</company>
+    <company id="8">Infosys</company>
+    <company id="9">Microsoft</company>
+    <company id="10">IBM</company>
+    <company id="11">Apple</company>
+    <company id="12">Oracle</company>
+  </companies>
+</root>
+
+<!-- 
+/bookstore/book/price[text()]
+
+/bookstore/book[price>35]/title
+
+/root/employees/employee
+
+/root//company
+
+/ root/companies/company/@id
+
+/root/employees/employee[1]/text()
+
+/root/employees/employee[last()]/text()
+
+/root/employees/employee[position()<3]
+
+/root//employee[@id]
+
+/root//employee[@id]/text()
+
+/root/employees/employee[@id=3]
+
+/root/employees/employee[@id<=3]
+
+/root/companies/*
+
+//employee|//company
+
+name(//*[1])
+
+
+ -->

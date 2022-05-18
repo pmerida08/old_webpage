@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="curriculum.xsl" type="text/xsl"?>
+<curriculum_vitae>
+    <datos_personales>
+        <nombre>Pablo</nombre>
+        <apellidos>Mérida Velasco</apellidos>
+        <fecha_nacimiento>26/05/2003</fecha_nacimiento>
+        <foto_personal>perfil.jpg</foto_personal>
+        <blog_personal></blog_personal>
+        <rss>
+            <red_social>
+                <logo>twitter.png</logo>
+                <nombre>Twitter</nombre>
+                <enlace>www.twitter.com/pmerida_</enlace>
+            </red_social>
+            
+            <red_social>
+                <logo>instagram.png</logo>
+                <nombre>Instagram</nombre>
+                <enlace>www.instragram.com/pablomerida_</enlace>
+            </red_social>
+
+
+        </rss>
+    </datos_personales>
+    <formacion>
+        <superior>Bachillerato</superior>
+        <superior>CFGS DAW</superior>
+    </formacion>
+    <idiomas>
+        <ingles>
+            <oral>B2</oral>
+            <escritura>B2</escritura>
+            <comprension>B2</comprension>
+        </ingles>
+    </idiomas>
+    <experiencia>
+        <trabajo fechainicio="09/10/2016" fechafinal="23/10/2017">Jardinero del Real Madrid</trabajo>
+        <trabajo fechainicio="15/07/2018" fechafinal="23/10/2019">Portero del Real Madrid</trabajo>
+    </experiencia>
+</curriculum_vitae>
